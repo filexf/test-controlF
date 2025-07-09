@@ -4,6 +4,7 @@
 
 - [Version en ligne](https://test-control-f.vercel.app/) 🚀
 - [Figma du projet](https://www.figma.com/design/P81etWQVPhpMEKQtp2vINJ/Test-Control-F-maquette?node-id=0-1&t=BXZagYSEEMoj3dXM-1) 🎨
+- [Prototype Figma interactif](https://www.figma.com/proto/P81etWQVPhpMEKQtp2vINJ/Test-Control-F-maquette?node-id=43-207&t=q7kLyPNhXAThIGKo-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A205) 🖱️
 
 ## Présentation 📝
 
