@@ -1,20 +1,20 @@
-# controlF-exercice
+# test-Control-F
 
-## Liens importants
+## Liens importants ‼️
 
-- [Version en ligne](https://test-control-f.vercel.app/)
-- [Figma du projet](https://www.figma.com/design/P81etWQVPhpMEKQtp2vINJ/Test-Control-F-maquette?node-id=0-1&t=BXZagYSEEMoj3dXM-1)
+- [Version en ligne](https://test-control-f.vercel.app/) 🚀
+- [Figma du projet](https://www.figma.com/design/P81etWQVPhpMEKQtp2vINJ/Test-Control-F-maquette?node-id=0-1&t=BXZagYSEEMoj3dXM-1) 🎨
 
-## Présentation
+## Présentation 📝
 
 Ce projet est une application front-end réalisée en React 19 et Tailwind CSS 4, répondant à un test technique. L'objectif est de créer une interface avec une sidebar et une page principale, le tout en monopage (SPA).
 
-## Stack technique
+## Stack technique 🛠️
 
 - [React 19](https://react.dev/)
 - [Tailwind CSS 4](https://tailwindcss.com/)
 
-## Installation
+## Installation 💻
 
 1. **Cloner le dépôt**
    ```bash
@@ -30,7 +30,7 @@ Ce projet est une application front-end réalisée en React 19 et Tailwind CSS 4
    npm run dev
    ```
 
-## Structure du projet
+## Structure du projet 📁
 
 - `src/` : code source principal
   - `App.jsx` : composant racine, gère la structure générale (sidebar, pages)
@@ -38,14 +38,14 @@ Ce projet est une application front-end réalisée en React 19 et Tailwind CSS 4
   - `index.css` : styles globaux (inclut Tailwind)
   - `assets/` : images et ressources statiques
 
-## Conventions & bonnes pratiques
+## Conventions & bonnes pratiques 📚
 
 - Utilisation stricte de React 19 et Tailwind CSS 4
 - Navigation monopage (SPA) avec React Router
 - Respect des règles définies dans `cursorrules`
 - Toujours demander avant d'installer un nouveau package
 
-## Auteur
+## Auteur 👨‍💻
 
 - Felix Orain
 
