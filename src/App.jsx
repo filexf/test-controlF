@@ -2,9 +2,16 @@ import logoControlF from "@/assets/logoControlF.png";
 import Sidebar from "@/components/layout/Sidebar";
 import Accueil from "@/components/pages/Accueil";
 import Galerie from "@/components/pages/Galerie";
+import NotFound from "@/components/pages/NotFound";
 import Projets from "@/components/pages/Projets";
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 
 const PAGES = [
   { key: "home", label: "Accueil", path: "/" },
@@ -29,7 +36,8 @@ function AppLayout() {
   }, [sidebarOpen]);
 
   // Trouve la page courante à partir du path
-  const currentPage = PAGES.find(p => p.path === location.pathname)?.key || "home";
+  const currentPage =
+    PAGES.find((p) => p.path === location.pathname)?.key || "home";
 
   return (
     <div className="min-h-screen flex flex-col md:block">
@@ -37,7 +45,9 @@ function AppLayout() {
       <aside className="hidden md:block fixed left-0 top-0 h-screen w-64 bg-slate-100 border-r p-4 z-40">
         <Sidebar
           currentPage={currentPage}
-          setCurrentPage={key => navigate(PAGES.find(p => p.key === key)?.path || "/")}
+          setCurrentPage={(key) =>
+            navigate(PAGES.find((p) => p.key === key)?.path || "/")
+          }
           sidebarOpen={sidebarOpen}
           setSidebarOpen={setSidebarOpen}
           PAGES={PAGES}
@@ -87,7 +97,9 @@ function AppLayout() {
       >
         <Sidebar
           currentPage={currentPage}
-          setCurrentPage={key => navigate(PAGES.find(p => p.key === key)?.path || "/")}
+          setCurrentPage={(key) =>
+            navigate(PAGES.find((p) => p.key === key)?.path || "/")
+          }
           sidebarOpen={sidebarOpen}
           setSidebarOpen={setSidebarOpen}
           PAGES={PAGES}
@@ -100,6 +112,7 @@ function AppLayout() {
           <Route path="/" element={<Accueil />} />
           <Route path="/projets" element={<Projets />} />
           <Route path="/galerie" element={<Galerie />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </div>
