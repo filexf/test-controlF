@@ -1,5 +1,10 @@
 # controlF-exercice
 
+## Liens importants
+
+- [Version en ligne](https://test-control-f.vercel.app/)
+- [Figma du projet](https://www.figma.com/design/P81etWQVPhpMEKQtp2vINJ/Test-Control-F-maquette?node-id=0-1&t=BXZagYSEEMoj3dXM-1)
+
 ## Présentation
 
 Ce projet est une application front-end réalisée en React 19 et Tailwind CSS 4, répondant à un test technique. L'objectif est de créer une interface avec une sidebar et une page principale, le tout en monopage (SPA).
