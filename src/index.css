@@ -1,2 +1,24 @@
 @import "tailwindcss";
 
+button {
+  cursor: pointer;
+}
+
+.title {
+  @apply text-green-800 font-extrabold tracking-tight;
+}
+
+
+@layer base {
+  * {
+    @apply border-gray-200 outline-gray-300/50;
+  }
+  body {
+    background: linear-gradient(to bottom, #f3f4f6 0%, #d1d5db 100%);
+  }
+
+}
+
+:root {
+  --radius-md: 1rem;
+}
