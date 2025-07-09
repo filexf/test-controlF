@@ -40,6 +40,7 @@ export default function Galerie() {
             src={img.src}
             alt={img.alt}
             className="rounded-lg object-cover h-80 aspect-[2/3] shadow"
+            loading="lazy"
           />
         ))}
       </div>
