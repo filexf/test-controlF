@@ -1,0 +1,22 @@
+# Cursorrules - controlF-exercice
+
+## Règles générales
+
+- Utiliser exclusivement React 19 et Tailwind CSS 4 pour le développement.
+- Toujours demander l'autorisation avant d'installer un nouveau package npm.
+- Préférer les composants réutilisables et la composition plutôt que la duplication de code.
+- Garder le code lisible, commenté si nécessaire, et respecter la structure du projet.
+- Les images utilisées doivent être libres de droits ou issues de sources publiques.
+- La navigation se fait avec React Router.
+- Respecter la structure des dossiers et fichiers décrite dans le README.
+- Documenter toute modification majeure dans le README.
+
+## Bonnes pratiques React
+
+- Utiliser les hooks React pour la gestion d'état et d'effets.
+- Privilégier les composants fonctionnels.
+
+## Bonnes pratiques Tailwind
+
+- Utiliser les classes utilitaires Tailwind pour le style.
+- Éviter le CSS personnalisé sauf cas exceptionnel.
