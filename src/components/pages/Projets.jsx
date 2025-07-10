@@ -19,7 +19,7 @@ export default function Projets() {
       title: "Movies Watchlist",
       desc: "<strong>Movies Watchlist</strong> vous aide à gérer tous les films que vous souhaitez voir. Ajoutez vos envies, découvrez des recommandations personnalisées et profitez d'une interface moderne pour organiser vos soirées cinéma.",
       img: watchlistImg,
-      link: "https://movie-web-kickstart.vercel.app/",
+      link: "https://movies-watchlist.vercel.app/",
     },
     {
       title: "Portfolio",
