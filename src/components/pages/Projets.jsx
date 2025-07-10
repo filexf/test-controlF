@@ -13,7 +13,7 @@ export default function Projets() {
       title: "Carbon Savings Simulator",
       desc: "<strong>Carbon Savings Simulator</strong> permet d'estimer et de réduire l'empreinte carbone d'un événement. L'application propose une interface simple pour simuler l'impact de chaque choix logistique et obtenir des conseils pour organiser des événements plus responsables.",
       img: carbonImg,
-      link: "https://carbon-simulator.vercel.app/",
+      link: "https://carbon-savings-simulator.vercel.app/",
     },
     {
       title: "Movies Watchlist",
