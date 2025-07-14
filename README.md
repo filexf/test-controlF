@@ -35,7 +35,7 @@ Ce projet est une application front-end réalisée en React 19 et Tailwind CSS 4
 
 1. **Cloner le dépôt**
    ```bash
-   git clone ['repo url'](https://github.com/filexf/test-controlF.git)
+   git clone https://github.com/filexf/test-controlF.git
    cd controlF-exercice
    ```
 2. **Installer les dépendances**
